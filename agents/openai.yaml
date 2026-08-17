@@ -1,6 +1,9 @@
 interface:
-  display_name: "Ian 小黑配图"
-  short_description: "为中文文章生成怪诞清爽、有小黑IP的正文配图资产"
-  default_prompt: "Use $ian-xiaohei-illustrations to 为这篇中文文章设计并生成几张小黑怪诞正文配图。"
+  display_name: "Editorial IP Visuals"
+  short_description: "用固定 IP 与 3D 编辑插画制作文章整套视觉"
+  default_prompt: "Use $editorial-ip-visuals 为这篇公众号文章制作封面、1:1 缩略图和正文论证配图，并标出具体插入位置。"
+  icon_small: "./assets/icon.svg"
+  icon_large: "./assets/icon.svg"
+  brand_color: "#A4473A"
 policy:
   allow_implicit_invocation: true
